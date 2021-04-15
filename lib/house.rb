@@ -29,6 +29,9 @@ class House
 		end
 	end
 
+	def whos_house(some_mans_house)
+	end
+
 	def recite
 		<<-TEXT
 This is the house that Jack built.
