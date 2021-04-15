@@ -29,7 +29,8 @@ class House
 		end
 	end
 
-	def whos_house(some_mans_house)
+	def who_built_it()
+		"the house that Jack built.\n"
 	end
 
 	def recite
