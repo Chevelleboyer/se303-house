@@ -1,6 +1,6 @@
 class House
 
-	def line
+	def line(_)
 	end
-	
+
 end
