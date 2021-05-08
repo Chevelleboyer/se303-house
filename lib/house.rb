@@ -30,6 +30,7 @@ class House
 	end
 
 	def recite
+		(1..12).each.collect { |n| line(n) }.join("\n")
 		<<-TEXT
 This is the house that Jack built.
 
