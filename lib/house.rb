@@ -30,6 +30,7 @@ class House
 	end
 
 	def phrase()
+		" the malt that lay in"
 	end
 
 	def recite
