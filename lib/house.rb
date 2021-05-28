@@ -29,7 +29,7 @@ class House
 		end
 	end
 
-	def phrase()
+	def phrase(number=nil)
 		" the malt that lay in"
 	end
 
