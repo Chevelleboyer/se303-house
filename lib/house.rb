@@ -40,6 +40,8 @@ class House
 end
 
 class Pirate < House
+	def line(number)
+	end
 end
 
 
