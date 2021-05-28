@@ -41,6 +41,7 @@ end
 
 class Pirate < House
 	def line(number)
+		"Thar be#{phrase(number)} the house that Jack built.\n"
 	end
 end
 
