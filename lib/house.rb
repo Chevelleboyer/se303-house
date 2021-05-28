@@ -28,6 +28,10 @@ class House
 	end
 
 	def phrase(number=nil)
+		case number
+		when 2
+			" the malt that lay in"
+		end
 		if number == 2
 			" the malt that lay in"
 		else
