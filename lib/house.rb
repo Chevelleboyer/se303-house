@@ -1,7 +1,6 @@
 class House
 
 	def line(number)
-		case number
 		"This is#{phrase(number)} the house that Jack built.\n"
 	end
 
