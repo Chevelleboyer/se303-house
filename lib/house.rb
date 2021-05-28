@@ -31,6 +31,8 @@ class House
 		case number
 		when 2
 			" the malt that lay in"
+		when 3
+			" the rat that ate the malt that lay in"
 		else
 			""
 		end
