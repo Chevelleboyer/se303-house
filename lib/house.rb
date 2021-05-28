@@ -38,3 +38,9 @@ class House
 	end
 
 end
+
+class Pirate < House
+end
+
+
+
