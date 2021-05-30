@@ -22,5 +22,8 @@ class Pirate < House
 	end
 end
 
+class Random < House
+end
+
 
 
