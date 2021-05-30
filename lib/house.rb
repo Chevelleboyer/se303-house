@@ -1,7 +1,7 @@
 class House
 
-	DATA = [" the horse and the hound and the horn that", " the farmer sowing his corn that", " the rooster that crowed in the morn that", " the priest all shaven and shorn that", " the man all tattered and torn that", " the maiden all forlorn that", " the cow with the crumpled horn that tossed", " the dog that worried", " the cat that killed", " the rat that ate", " the malt that lay in", " the house that Jack built."]
-	VERBS = [" belonged to", " kept", " woke", " married", " kissed", " milked", "", "", "", "", "", ""]
+	DATA = [" the horse and the hound and the horn that", " the farmer sowing his corn that", " the rooster that crowed in the morn that", " the priest all shaven and shorn that", " the man all tattered and torn that", " the maiden all forlorn that", " the cow with the crumpled horn that", " the dog that worried", " the cat that killed", " the rat that ate", " the malt that lay in", " the house that Jack built."]
+	VERBS = [" belonged to", " kept", " woke", " married", " kissed", " milked", " tossed", "", "", "", "", ""]
 
 	def line(number)
 		"This is#{phrase(number)}\n"
