@@ -193,6 +193,8 @@ end
 
 class RandomHouseTest < Minitest::Test
   def test_randomhouse_line
-    assert "This is the house that Jack built.\n" != RandomHouse.new.line(1)
+    line = RandomHouse.new.line(3)
+    puts line
+    assert "This is the house that Jack built.\n" != line
   end
 end
