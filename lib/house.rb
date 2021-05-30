@@ -22,7 +22,7 @@ class Pirate < House
 	end
 end
 
-class Random < House
+class RandomHouse < House
 end
 
 
