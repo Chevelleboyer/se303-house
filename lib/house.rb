@@ -20,6 +20,7 @@ class House
 	def phrase(number=nil)
 		case number
 		when 1
+			DATA[-number..-1].join("")
 			""
 		else
 			DATA[-number..-1].join("")
