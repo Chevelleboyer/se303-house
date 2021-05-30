@@ -187,14 +187,16 @@ end
 
 class RandomPirateTest < Minitest::Test
     def test_random_pirate_line
-    assert "Thar be the house that Jack built.\n" != RandomPirate.new.line(1)
+      line = RandomPirate.new.line(3)
+      puts "Pirate"+line
+    assert "Thar be the house that Jack built.\n" != line
   end
 end
 
 class RandomHouseTest < Minitest::Test
   def test_randomhouse_line
     line = RandomHouse.new.line(3)
-    puts line
+    puts "House"+line
     assert "This is the house that Jack built.\n" != line
   end
 end
