@@ -23,7 +23,6 @@ class House
 			""
 		when 5
 			DATA[-number..-1].join("")
-			" the dog that worried the cat that killed the rat that ate the malt that lay in"
 		when 6
 			" the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in"
 		when 7
