@@ -1,6 +1,17 @@
 class House
 
-	DATA = ["", "", " the malt that lay in"," the rat that ate"]
+	# DATA = [" the malt that lay in", " the rat that ate"]
+
+	# def line(number)
+	# 	"This is#{phrase(number)} the house that Jack built.\n"
+	# end
+
+	# def phrase(number=nil)
+	# 	case number
+	# 	when 2
+	# 		DATA[-number].join("")
+
+	DATA = [" the malt that lay in", " the rat that ate"]
 
 	def line(number)
 		"This is#{phrase(number)} the house that Jack built.\n"
