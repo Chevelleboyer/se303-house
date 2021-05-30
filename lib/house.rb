@@ -34,5 +34,9 @@ class RandomPirate < Pirate
 	VERBS = SHUFFLED.collect { |line, verb| verb }
 end
 
+class MixedHouseVerbs < House
+	VERBS = VERBS.shuffle
+end
+
 
 
