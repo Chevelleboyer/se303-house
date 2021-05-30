@@ -22,6 +22,7 @@ class House
 		when 2
 			DATA[-number..-1].join("")
 		when 3
+			DATA[-number..-1].join("")
 			" the rat that ate the malt that lay in"
 		when 4
 			" the cat that killed the rat that ate the malt that lay in"
