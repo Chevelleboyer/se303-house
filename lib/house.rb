@@ -9,7 +9,7 @@ class House
 	def phrase(number=nil)
 		case number
 		when 2
-			DATA[number]
+			DATA[0, number+1].join("")
 		when 3
 			DATA[0, number+1].join("")
 			" the rat that ate the malt that lay in"
