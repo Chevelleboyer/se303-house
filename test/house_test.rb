@@ -124,8 +124,7 @@ Thar be the horse and the hound and the horn that belonged to the farmer sowing 
   end
 
   def test_all_randomhouse_lines
-    expected = "This is the house that Jack built.\n"
-    assert expected != RandomHouse.new.line(1)
+    assert "This is the house that Jack built.\n" != RandomHouse.new.line(1)
   end
 
 end
