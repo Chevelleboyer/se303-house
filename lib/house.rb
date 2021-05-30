@@ -23,11 +23,15 @@ class Pirate < House
 end
 
 class RandomHouse < House
-	DATA = DATA.shuffle
+	SHUFFLED = DATA.zip(VERBS).shuffle
+	DATA = SHUFFLED.collect { |line, verb| line }
+	VERBS = SHUFFLED.collect { |line, verb| verb }
 end
 
 class RandomPirate < Pirate
-	DATA = DATA.shuffle
+	SHUFFLED = DATA.zip(VERBS).shuffle
+	DATA = SHUFFLED.collect { |line, verb| line }
+	VERBS = SHUFFLED.collect { |line, verb| verb }
 end
 
 
