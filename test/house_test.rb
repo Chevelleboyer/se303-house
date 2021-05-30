@@ -200,3 +200,14 @@ class RandomHouseTest < Minitest::Test
     assert "This is the house that Jack built.\n" != line
   end
 end
+
+class MixedHouseVerbsTest < Minitest::Test
+  def test_verbs_are_mixed
+    line = MixedHouseVerbs.new.line(3)
+    puts "Mixed verb house"+line
+    assert "This is the rat that ate the malt that lay in the house that Jack built.\n" != line
+  end
+end
+
+
+
