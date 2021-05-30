@@ -1,10 +1,10 @@
 class House
 
-	DATA = [" the horse and the hound and the horn that", " the farmer sowing his corn that", " the rooster that crowed in the morn that", " the priest all shaven and shorn that", " the man all tattered and torn that", " the maiden all forlorn that", " the cow with the crumpled horn that", " the dog that", " the cat that", " the rat that", " the malt that", " the house that Jack built."]
+	DATA = [" the horse and the hound and the horn that", " the farmer sowing his corn that", " the rooster that crowed in the morn that", " the priest all shaven and shorn that", " the man all tattered and torn that", " the maiden all forlorn that", " the cow with the crumpled horn that", " the dog that", " the cat that", " the rat that", " the malt that", ""]
 	VERBS = [" belonged to", " kept", " woke", " married", " kissed", " milked", " tossed", " worried", " killed", " ate", " lay in", ""]
 
 	def line(number)
-		"This is#{phrase(number)}\n"
+		"This is#{phrase(number)} the house that Jack built.\n"
 	end
 
 	def phrase(number=nil)
@@ -18,7 +18,7 @@ end
 
 class Pirate < House
 	def line(number)
-		"Thar be#{phrase(number)}\n"
+		"Thar be#{phrase(number)} the house that Jack built.\n"
 	end
 end
 
