@@ -1,6 +1,6 @@
 class House
 
-	DATA = ["", "", " the malt that lay in", " the rat that ate"]
+	DATA = ["", "", " the malt that lay in"," the rat that ate"]
 
 	def line(number)
 		"This is#{phrase(number)} the house that Jack built.\n"
@@ -9,9 +9,8 @@ class House
 	def phrase(number=nil)
 		case number
 		when 2
-			DATA[0, number+1].join("")
+			" the malt that lay in"
 		when 3
-			DATA[0, number+1].join("")
 			" the rat that ate the malt that lay in"
 		when 4
 			" the cat that killed the rat that ate the malt that lay in"
