@@ -127,7 +127,8 @@ Thar be the horse and the hound and the horn that belonged to the farmer sowing 
 end
 
 class RandomHouseTest < Minitest::Test
-  def test_all_randomhouse_lines
+  def test_randomhouse_line
+    puts "Rand house" + RandomHouse.new.line(1)
     assert "This is the house that Jack built.\n" != RandomHouse.new.line(1)
   end
 end
