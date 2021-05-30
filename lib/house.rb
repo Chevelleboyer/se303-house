@@ -7,7 +7,7 @@ class House
 	end
 
 	def phrase(number=nil)
-		DATA[-number..-1].join("")
+		self.class::DATA[-number..-1].join("")
 	end
 
 	def recite
@@ -23,6 +23,7 @@ class Pirate < House
 end
 
 class RandomHouse < House
+	DATA = DATA.shuffle
 end
 
 
