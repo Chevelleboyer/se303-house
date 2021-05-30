@@ -19,6 +19,8 @@ class House
 
 	def phrase(number=nil)
 		case number
+		when 1
+			""
 		when 2
 			DATA[-number..-1].join("")
 		when 3
