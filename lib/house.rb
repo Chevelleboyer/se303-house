@@ -21,8 +21,6 @@ class House
 		case number
 		when 1
 			""
-		when 12
-			DATA[-number..-1].join("")
 		else
 			DATA[-number..-1].join("")
 		end
