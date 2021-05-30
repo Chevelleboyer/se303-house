@@ -11,7 +11,7 @@ class House
 	# 	when 2
 	# 		DATA[-number].join("")
 
-	DATA = [" the malt that lay in", " the rat that ate"]
+	DATA = [" the rat that ate", " the malt that lay in", ""]
 
 	def line(number)
 		"This is#{phrase(number)} the house that Jack built.\n"
