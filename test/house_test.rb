@@ -126,6 +126,13 @@ Thar be the horse and the hound and the horn that belonged to the farmer sowing 
     end
 end
 
+class RandomPirateTest < Minitest::Test
+    def test_random_pirate_line
+    puts "Pirate" + RandomPirate.new.line(1)
+    assert "Thar be the house that Jack built.\n" != RandomPirate.new.line(1)
+  end
+end
+
 class RandomHouseTest < Minitest::Test
   def test_randomhouse_line
     puts "Rand house" + RandomHouse.new.line(1)
