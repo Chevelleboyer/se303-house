@@ -21,8 +21,6 @@ class House
 		case number
 		when 1
 			""
-		when 7
-			DATA[-number..-1].join("")
 		when 8
 			" the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in"
 		when 9
