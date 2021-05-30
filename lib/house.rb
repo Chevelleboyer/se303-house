@@ -21,7 +21,6 @@ class House
 		case number
 		when 2
 			DATA[-number..-1].join("")
-			" the malt that lay in"
 		when 3
 			" the rat that ate the malt that lay in"
 		when 4
