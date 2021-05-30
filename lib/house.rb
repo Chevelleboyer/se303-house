@@ -1,6 +1,6 @@
 class House
 
-	DATA = ["", "the house that Jack built."]
+	DATA = ["", "", " the malt that lay in", " the rat that ate"]
 
 	def line(number)
 		"This is#{phrase(number)} the house that Jack built.\n"
