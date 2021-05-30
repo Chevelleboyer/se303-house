@@ -27,6 +27,7 @@ class RandomHouse < House
 end
 
 class RandomPirate < Pirate
+	DATA = DATA.shuffle
 end
 
 
